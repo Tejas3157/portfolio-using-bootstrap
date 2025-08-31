@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <header class="text-bg-info text-center p-3 shadow-sm">
+        <div class="container">
+            <h1 class="h1">Welcome to My Portfolio</h1>
+            <p class="h5">Here you can see my projects and skills</p>
+        </div>
+    </header>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-lg-3 text-white fs-4 fw-bold" href="#">
+                <img src="https://res.cloudinary.com/deqfgxqqe/image/upload/v1755691091/Logo2_e_background_removal_f_png_e_improve_e_sharpen_mm6hlh.png"
+                    alt="Logo here" width="50" height="50">TEJAS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto h4">
+                    <li class="nav-item mx-2"><a class="nav-link" href="#About">Home</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#Skills">Skills</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#Register">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="About" class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="https://res.cloudinary.com/deqfgxqqe/image/upload/v1755690463/226E5A0505_lhsmla.jpg"
+                        alt="profile" class="img-fluid rounded-circle shadow-lg"
+                        style="width: 220px; height: 220px; object-position: top; object-fit: cover; border: 3px solid #0dcaf0;">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-3">About Me</h2>
+                    <p>My name is <strong>D.Tejas</strong>. I'm a UI/UX developer driven by a fascination for how
+                        people interact with technology. My journey into this field started with a love for graphic
+                        design, which gave me a strong eye for aesthetics, typography, and color theory. I quickly
+                        realized I wanted to do more than just create beautiful visuals; I wanted to create experiences
+                        that were functional, intuitive, and solved real-world problems.</p>
+                    <p>My design philosophy is rooted in empathy. I believe the best digital products are created with a
+                        deep understanding of the user. I enjoy the entire design process, from initial research and
+                        creating user flows to building interactive prototypes in Figma.</p>
+                    <p>As someone new to the industry, I am a dedicated and fast learner, always excited to tackle new
+                        challenges and collaborate with creative teams. I'm passionate about building products that not
+                        only look good but feel good to use.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="container my-5 border border-info border-2 opacity-50">
+
+        <div id="Skills" class="container my-5">
+            <div class="bg-white p-4 p-md-5 rounded shadow-sm">
+                <h2 class="text-center mb-4">My Skills</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h3 class="text-center fs-4">Soft Skills</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-action">Team Work</li>
+                            <li class="list-group-item list-group-item-action">Time Management</li>
+                            <li class="list-group-item list-group-item-action">Communication</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center fs-4">Technical Skills</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-action">HTML</li>
+                            <li class="list-group-item list-group-item-action">CSS</li>
+                            <li class="list-group-item list-group-item-action">JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="container my-5 border border-info border-2 opacity-50">
+
+        <div class="container my-5">
+            <div class="bg-white p-4 p-md-5 rounded shadow-sm">
+                <h2 class="text-center mb-4">Subjects & Grades</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-center mb-0">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Subject</th>
+                                <th>Marks</th>
+                                <th>Grades</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>90</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>80</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>70</td>
+                                <td>B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <hr class="container my-5 border border-info border-2 opacity-50">
+
+        <div id="Register" class="container my-5 h6">
+            <div class="card p-4 shadow-sm">
+                <h2 class="text-center mb-4">Register Your Interest</h2>
+                <form action="/submit">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" name="fullname" id="fullname"
+                            placeholder="Enter your full name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email"
+                            required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" id="password"
+                                placeholder="Enter Password" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="confirm-password" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" name="confirm_password"
+                                id="confirm-password" placeholder="Confirm Password" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label d-block">Gender:</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="female"
+                                    value="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="other" value="other">
+                                <label class="form-check-label" for="other">Other</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label d-block">Hobbies:</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="hobbies" id="playingGames"
+                                    value="playing games">
+                                <label class="form-check-label" for="playingGames">Playing Games</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="hobbies" id="listeningMusic"
+                                    value="listening music">
+                                <label class="form-check-label" for="listeningMusic">Listening Music</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="dob" class="form-label">Date of Birth:</label>
+                            <input type="date" class="form-control" name="dob" id="dob" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="subject" class="form-label">Favorite Subject</label>
+                            <select class="form-select" name="subject" id="subject">
+                                <option selected value="">--Select--</option>
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="javascript">JavaScript</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="resume" class="form-label">Upload Resume:</label>
+                        <input class="form-control" type="file" name="resume" id="resume" required>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" id="terms" required>
+                        <label class="form-check-label" for="terms">
+                            I agree to the terms and conditions
+                        </label>
+                    </div>
+
+                    <div class="d-grid col-md-6 mx-auto">
+                         <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-1">© 2025 Tejas. All rights reserved.</p>
+            <p class="mb-0">Follow me on:
+                <a class="text-white fw-bold" href="https://www.linkedin.com/in/tejas-dunga-089b8a278">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
